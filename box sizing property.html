@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Box Sizing</title>
+	<style>
+		*{
+			
+			box-sizing: border-box;
+		}
+		h1{
+			font-style: italic;
+			font-family: serif;
+			font-size: 3em;
+			background-color: purple;
+			width: 300px;
+			padding: 10px 20px 10px 20px;
+			border: 4px solid black ;
+			
+
+		}
+		#class{
+			background-color: green;
+			padding: 5px;
+			border: 3px solid red;
+			width: 500px;
+			height: 90px;
+			overflow: auto;
+			margin-bottom: 100px;
+			margin-right: 10px;
+			
+
+		}
+		#class2{
+			background-color: pink;
+			padding: 5px;
+			border: 3px solid red;
+			width: 500px;
+			height: 90px;
+			overflow: auto;
+			margin-top: 80;
+			margin-right: 10px;
+			
+
+
+		}
+		#hclass{
+			
+			padding: 50px;
+			
+			width: 45%;
+			height: 90px;
+			
+			float: left;
+			margin: 35px;
+			margin-bottom: 200px;
+			
+			
+
+
+
+			
+			
+		}
+		#hclass2{
+			
+			padding: 50px;
+			
+			width: 45%;
+			height: 90px;
+			
+			float: right;
+			margin: 30px;
+			margin-bottom: 200px;
+			
+		}
+
+
+		
+	
+		
+		
+	
+
+		
+		
+		
+		
+					
+
+
+		
+
+		
+
+		
+	
+
+		
+	
+	
+		
+	</style>
+</head>
+<body>
+	<h1>Box Sizing</h1>
+	<div id="box">
+		<div id="class">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+	<div id="box2">
+		<div id="class2">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+	<section style="color: red;">Here You can see that  i have set a margin fo 1st paragrapht to 100px and 2nd to 80 px. Here total margin distance becomes 100 px instead of 180 px i.e. always highest value wins in vertical position</section>
+
+
+
+	<h1> Now lets see in horizontal</h1>
+	<div id="hbox">
+		<div id="hclass">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</div>
+	<div id="hbox2">
+		<div id="hclass2">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</div>
+
+</body>
+</html>
